@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import ExerciseFive from "./Components/ExerciseFive/ExerciseFive";
 
 function App() {
   return (
     <div className="App">
-      <h1>Namaste React</h1>
+      <ExerciseFive />
     </div>
   );
 }
