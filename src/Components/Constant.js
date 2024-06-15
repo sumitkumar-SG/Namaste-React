@@ -1,7 +1,4 @@
-import React from "react";
-import "./style.css";
-
-const resList = [
+export const restaurantList = [
   {
     type: "restaurant",
     data: {
@@ -27,8 +24,7 @@ const resList = [
         city: "bangalore",
       },
       cityState: "1",
-      address:
-        "6/21,9TH CROSS ,1ST MAIN, VENKATESHWARA LAYOUT,SG PALYA, BENGALURU, - 560093",
+      address: "6/21,9TH CROSS ,1ST MAIN, VENKATESHWARA LAYOUT,SG PALYA, BENGALURU, - 560093",
       locality: "SG Palya",
       parentId: 20974,
       unserviceable: false,
@@ -154,14 +150,7 @@ const resList = [
       area: "Koramangala",
       totalRatingsString: "10000+ ratings",
       cloudinaryImageId: "xqwpuhgnsaf18te7zvtv",
-      cuisines: [
-        "Biryani",
-        "Andhra",
-        "South Indian",
-        "North Indian",
-        "Chinese",
-        "Seafood",
-      ],
+      cuisines: ["Biryani", "Andhra", "South Indian", "North Indian", "Chinese", "Seafood"],
       tags: [],
       costForTwo: 50000,
       costForTwoString: "₹500 FOR TWO",
@@ -175,8 +164,7 @@ const resList = [
         city: "bangalore",
       },
       cityState: "1",
-      address:
-        "124, Near Jyothi Nivas College, 1st Cross, KHB Colony, Koramangala 5th Block, Bangalore",
+      address: "124, Near Jyothi Nivas College, 1st Cross, KHB Colony, Koramangala 5th Block, Bangalore",
       locality: "5th Block",
       parentId: 635,
       unserviceable: false,
@@ -547,8 +535,7 @@ const resList = [
         city: "bangalore",
       },
       cityState: "1",
-      address:
-        "103, Industrial Area, 5th Block, Near Jyothi Nivas College, Koramangala 5th Block, Bangalore",
+      address: "103, Industrial Area, 5th Block, Near Jyothi Nivas College, Koramangala 5th Block, Bangalore",
       locality: "Koramangala",
       parentId: 475,
       unserviceable: false,
@@ -683,8 +670,7 @@ const resList = [
         city: "bangalore",
       },
       cityState: "1",
-      address:
-        "Asha Tiffins, 5th Main Road, Sector 7, HSR Layout, Bengaluru, Karnataka, India",
+      address: "Asha Tiffins, 5th Main Road, Sector 7, HSR Layout, Bengaluru, Karnataka, India",
       locality: "7th Sector",
       parentId: 236243,
       unserviceable: false,
@@ -810,14 +796,7 @@ const resList = [
       area: "Hsr Layout",
       totalRatingsString: "10000+ ratings",
       cloudinaryImageId: "rxsvhvcdip9dbfdijzk9",
-      cuisines: [
-        "American",
-        "Arabian",
-        "Chinese",
-        "Desserts",
-        "Mughlai",
-        "North Indian",
-      ],
+      cuisines: ["American", "Arabian", "Chinese", "Desserts", "Mughlai", "North Indian"],
       tags: [],
       costForTwo: 40000,
       costForTwoString: "₹400 FOR TWO",
@@ -912,15 +891,7 @@ const resList = [
       area: "BTM Layout",
       totalRatingsString: "10000+ ratings",
       cloudinaryImageId: "ptetuqkrhmpd8tiqiztg",
-      cuisines: [
-        "North Indian",
-        "Home Food",
-        "Thalis",
-        "Chinese",
-        "Punjabi",
-        "South Indian",
-        "Ice Cream",
-      ],
+      cuisines: ["North Indian", "Home Food", "Thalis", "Chinese", "Punjabi", "South Indian", "Ice Cream"],
       tags: [],
       costForTwo: 20000,
       costForTwoString: "₹200 FOR TWO",
@@ -1361,8 +1332,7 @@ const resList = [
         city: "bangalore",
       },
       cityState: "1",
-      address:
-        "#5, 6th cross, 1st Main, Bannerghatta Main Rd, NS Palya, Stage 2, Bengaluru, Karnataka 560076",
+      address: "#5, 6th cross, 1st Main, Bannerghatta Main Rd, NS Palya, Stage 2, Bengaluru, Karnataka 560076",
       locality: "2nd Stage",
       parentId: 3455,
       unserviceable: false,
@@ -1512,8 +1482,7 @@ const resList = [
         city: "bangalore",
       },
       cityState: "1",
-      address:
-        "1313, Near Bangalore Central Mall, 25th Main, 9th Block, Jayanagar, Bengaluru, Karnataka 560069, India",
+      address: "1313, Near Bangalore Central Mall, 25th Main, 9th Block, Jayanagar, Bengaluru, Karnataka 560069, India",
       locality: "9th Block",
       parentId: 9954,
       unserviceable: false,
@@ -1784,8 +1753,7 @@ const resList = [
         city: "bangalore",
       },
       cityState: "1",
-      address:
-        "#5, 6th cross, 1st Main, Bannerghatta Main Rd, NS Palya, Stage 2, Bengaluru, Karnataka 560076",
+      address: "#5, 6th cross, 1st Main, Bannerghatta Main Rd, NS Palya, Stage 2, Bengaluru, Karnataka 560076",
       locality: "2nd Stage",
       parentId: 21591,
       unserviceable: false,
@@ -1911,14 +1879,7 @@ const resList = [
       area: "HSR Layout",
       totalRatingsString: "10000+ ratings",
       cloudinaryImageId: "dbfp4mqtidbjh9sectlk",
-      cuisines: [
-        "Beverages",
-        "Biryani",
-        "Chinese",
-        "Desserts",
-        "North Indian",
-        "South Indian",
-      ],
+      cuisines: ["Beverages", "Biryani", "Chinese", "Desserts", "North Indian", "South Indian"],
       tags: [],
       costForTwo: 15000,
       costForTwoString: "₹150 FOR TWO",
@@ -1932,8 +1893,7 @@ const resList = [
         city: "bangalore",
       },
       cityState: "1",
-      address:
-        "No 1188 HNR tower 24th main second SECTOR HSR LAYOUT BANGALORE 560102",
+      address: "No 1188 HNR tower 24th main second SECTOR HSR LAYOUT BANGALORE 560102",
       locality: "2nd Sector",
       parentId: 6971,
       unserviceable: false,
@@ -2044,73 +2004,4 @@ const resList = [
     subtype: "basic",
   },
 ];
-
-export const Card = (props) => {
-  const {resData} = props;
-  const {
-    cloudinaryImageId,
-    name,
-    cuisines,
-    avgRating,
-    costForTwo,
-    deliveryTime,
-  } = resData?.data;
-  return (
-    <div className="card">
-      <img src={'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/KFC_logo-image.svg/800px-KFC_logo-image.svg.png'} alt="img" />
-      <div className="details">
-        <span>{name}</span>
-        <span>{avgRating}</span>
-      </div>
-      <div className="description">
-        <p>{costForTwo}</p>
-        <p>{cuisines.join(', ')}</p>
-        <p>{deliveryTime}</p>
-      </div>
-    </div>
-  );
-};
-const currYear = new Date().getFullYear();
-const ExerciseFive = () => {
-  return (
-    <div className="container">
-      <div className="navbar">
-        <div className="navbar-left">
-          <img
-            src={
-              "https://images.deliveryhero.io/image/talabat/restaurants/WhatsApp_Image_20230607_a638217270232726204.jpeg?width=300"
-            }
-            alt="Joy Restaurant"
-          />
-        </div>
-        <div className="navbar-right">
-          <ul>
-            <li>Home</li>
-            <li>Menu</li>
-            <li>Cart</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-      </div>
-      <div className="body">
-        
-        {/* <Card resData={resList[0]}/>
-        <Card resData={resList[1]}/>
-        <Card resData={resList[2]}/>
-        <Card resData={resList[3]}/>
-        <Card resData={resList[4]}/>
-        <Card resData={resList[5]}/> */}
-        {resList.map((res)=>{
-          return <Card key={res.data.id} resData={res} />;
-        })}
-      </div>
-      <div className="footer">
-      <p>
-        Copyright &copy; {currYear}, Made with 💗 by <strong>Sumit</strong>
-      </p>
-      </div>
-    </div>
-  );
-};
-
-export default ExerciseFive;
+export const IMG_CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
