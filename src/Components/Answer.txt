@@ -1,3 +1,15 @@
-Q) What is JSX?
+Q.1) What is the difference between Named Export, Default export and * as export?
 
---> Its stands for javascript xml, it is html type syntax in javascript
+Ans) when we use named export we need to import it in curly braces and default case we don't need to use curly braces and * is use when we need to export more than one function as alias and later on we use it as dot(xyz.function).
+
+Q.2) What is the importance of config.js file ?
+
+Ans) config file is use when have hard coded things in code base so we just save it at oneplace and export it from there kind of global variable.
+
+Q.3) What are React Hooks? 
+
+Ans) It provides functional components a ability to use state and side effects in react applications. it is first introduced in 16.8 version of react.
+
+Q.4) Why do we need a useState Hook?
+
+Ans). We need useState hook to sync variable with the UI . when we change the variable in the UI react keep his eye on variable and re-render the component when the value changes.
